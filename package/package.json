@@ -1,13 +1,12 @@
 {
-  "name" : "hl7.fhir.template",
+  "name" : "hl7.cds.template",
   "type" : "fhir.template",
   "license" : "CC0-1.0",
-  "description" : "HL7 FHIR Template - for use with HL7-published FHIR IGs",
-  "author" : "http://hl7.org/fhir",
-  "canonical" : "http://fhir.org/templates/hl7.fhir.template",
-  "base" : "hl7.base.template",
+  "description" : "HL7 CDS Hooks template - to be used with CDS Hooks",
+  "author" : "http://cds-hooks.org",
+  "base" : "hl7.fhir.template",
   "dependencies" : {
-    "hl7.base.template" : "current"
+    "hl7.fhir.template" : "current"
   },
   "version" : "0.10.1"
 }
