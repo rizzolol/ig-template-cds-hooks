@@ -1,3 +1,10 @@
+.soliciting-feedback {
+      margin: 5px;
+      padding: 10px;
+      border-left-style: solid;
+      background-color: #fff2ff;
+      border-left-color: #ffa0ff;
+    }
 .soliciting-feedback::before {
   white-space: pre;
   content: "Looking for feedback\A ";
