@@ -1,0 +1,6 @@
+.stu-note::before {
+  white-space: pre;
+  content: "Note\A ";
+  #background-color: yellow;
+  color: red;
+  font-weight: bold;}
